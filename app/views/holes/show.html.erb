@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @hole.number %>
+</p>
+
+<div class="holeDiv">
+	<%= @hole.image %> 
+</div>
+
+
+
+<%= link_to 'Edit', edit_hole_path(@hole) %> |
+<%= link_to 'Back', holes_path %>
